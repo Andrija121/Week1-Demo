@@ -11,7 +11,7 @@ namespace Week1_Demo
 
         public Transportation(int speedKMH)
         {
-            SpeedKMH = speedKMH;
+            this.SpeedKMH = speedKMH;
         }
 
         //public double CalculateHoursTillDestination(int km)
@@ -20,7 +20,7 @@ namespace Week1_Demo
         //}
         public virtual string GetInfo()
         {
-            return speedKMH + "KMH";
+            return SpeedKMH + "KMH";
         }
 
     }
